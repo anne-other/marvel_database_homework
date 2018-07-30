@@ -9,7 +9,8 @@ SELECT name FROM people WHERE name = 'Anne Ince';
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 DELETE FROM movies WHERE title = 'Batman Begins';
 -- 6. Create a new entry in the 'people' table with the name of one of the instructors.
-INSERT INTO people (name) VALUES ('Alistair Kane')
+INSERT INTO people (name) VALUES ('Alistair Kane');
 -- 7. Ben Affleck has decided to hijack our movie evening. Typical DC behaviour! Remove him from the table of people.
+DELETE FROM people WHERE name = 'Ben Affleck';
 -- 8. The cinema has just heard that they will be holding an exclusive midnight showing of 'Captain Marvel'!! Create a new entry in the 'movies' table to reflect this.
 -- 9. The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
